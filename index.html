@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Qasim K.</title>
+  <meta name="description" content="Hi! I'm Qasim. I build software for TVs, phones, and Linux. Since 2024, 40 of my changes have been merged into KDE Plasma.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Qasim K.">
+  <meta property="og:description" content="I build software for TVs, phones, and Linux. 40 changes merged into KDE Plasma.">
+  <meta property="og:url" content="https://user8395.github.io/">
+  <meta property="og:image" content="https://user8395.github.io/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" href="assets/fonts/Archivo.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="topbar__name" href="#hero">Qasim K.</a>
+    <nav class="topbar__nav" aria-label="Sections">
+      <a href="#kde">KDE</a>
+      <a href="#startup">Startup</a>
+      <a href="#built">Built</a>
+      <a href="#life">Life</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="button button--sun button--small" href="https://bit.ly/qasim-cv" target="_blank" rel="noopener">Résumé</a>
+  </header>
+
+  <main>
+    <section id="hero" class="hero" aria-labelledby="hero-title"></section>
+    <section id="progress" class="section" aria-labelledby="progress-title"></section>
+    <section id="startup" class="section band band--startup" aria-labelledby="startup-title"></section>
+    <section id="kde" class="section" aria-labelledby="kde-title"></section>
+    <section id="built" class="section" aria-labelledby="built-title"></section>
+    <section id="life" class="section band band--life" aria-labelledby="life-title"></section>
+    <section id="contact" class="section" aria-labelledby="contact-title"></section>
+  </main>
+
+  <noscript>
+    <p class="noscript">This site works best with JavaScript. You can still find me on
+      <a href="https://github.com/User8395">GitHub</a>,
+      <a href="https://invent.kde.org/usereightthreeninefive">KDE Invent</a>, or by email at
+      <a href="mailto:qasim75426@gmail.com">qasim75426@gmail.com</a>.</p>
+  </noscript>
+
+  <dialog id="panel" aria-labelledby="panel-title"></dialog>
+
+  <div id="terminal" class="term" role="region" aria-label="Terminal" hidden>
+    <pre class="term__out" aria-live="polite"></pre>
+    <form class="term__form">
+      <span class="term__prompt" aria-hidden="true">$</span>
+      <label class="visually-hidden" for="term-input">Command</label>
+      <input id="term-input" class="term__input" autocomplete="off" autocapitalize="off" spellcheck="false">
+    </form>
+  </div>
+</body>
+</html>
